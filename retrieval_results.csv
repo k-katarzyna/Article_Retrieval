@@ -1,0 +1,221 @@
+Title,Text_chunk,Question
+Why Deep Learning Is Not A Silver Bullet For Autonomous Vehicles,"Deep learning is a form of AI that was designed to work like the human brain.
+
+
+
+Engineers teach it much the same way a human learns.
+
+As an example, imagine you’re trying to create a deep-learning algorithm that can detect a cat in an image.
+
+The question the algorithm attempts to answer has an objectively correct response.
+
+There’s either a cat in the picture, or there isn’t.
+
+In mathematical terms, the problem space has a clear global minima.
+
+Because the requested output is simple, we have a good understanding of how to program this cat-detecting algorithm.
+
+First, you “train” the algorithm with data — tens of thousands of pictures of cats, as well as pictures of not-cats, such as dogs and people and bears.
+
+Soon, the algorithm can look at new, never-before-seen photographs, and decide with a high rate of certainty whether the set of pixels features a cat.",What is deep learning and how to learn it?
+Convolutional Neural Network: A Step By Step Guide,"You’ll be told further in this tutorial.)
+
+
+
+Step 2: Introduction to Concepts and Technical Aspects
+
+How Can You Dive Into Deep Learning?
+
+Essentially, it all starts with neural networks, and deep learning is nothing but the logical implementation of those networks to abstract useful information from data.
+
+In technical terms, it is a discreet method of classification of unstructured input data such as media which includes images, sound, video, and text.
+
+
+
+Firstly, you need to decide which learning medium suits you the best for your research and study deep learning.
+
+It could be blogs, books, videos, or online courses approach.
+
+We are listing the sources for you to start with the simplest concept that will help you to get a grip on the subject gradually.
+
+
+
+Blog Approach
+
+- Fundamentals of Deep Learning — Starting with Artificial Neural Network
+
+- A Deep Learning Tutorial:",What is deep learning and how to learn it?
+A deep intuition to deep learning,"“Deep Learning is the process of learning the target variable as a function of the influencing input features/variables.”
+
+
+
+In fact, machine learning also does the same as the above definition.
+
+However, machine learning (ML) is limited in its capabilities to learn, when it comes to complexities in real world problems.
+
+Not to blame ML, as it is not “crafted” to learn these complexities themselves.
+
+
+
+Deep Learning, on the contrary is designed to learn complex functions from data.
+
+By complex functions, what I mean is the non-linearity existing in the relationship between the features and the target.
+
+Let us see why a neural network is capable enough to learn these complexities soon as we proceed.
+
+
+
+Perceptron — The basic element of a neural network
+
+A neural network is comprised of large number of perceptrons connected together as a network.
+
+A perceptron is a binary classification algorithm that learns a line that separates two classes.",What is deep learning and how to learn it?
+Convolutional Neural Network: A Step By Step Guide,"Step 5: Exploring Deep Learning
+
+Deep learning is a complex, yet prominent field of artificial intelligence where the real magic is happening right now.
+
+The three key points which steer the field of deep learning are:
+
+
+
+The availability of huge amounts of training data Powerful computational infrastructure Advances in academia
+
+However, what you need to do to pioneer deep learning is simple:
+
+Repeat from step 2 — step 4 with a different adventure every time
+
+Keep testing your deep learning skills (e.g. Kaggle)
+
+
+
+Join Deep Learning communities and ask questions (e.g. Google Group, DL Subreddit)
+
+Follow recent researches/ researchers (e.g. Most Cited Deep Learning Papers)
+
+EndNote
+
+Today, researchers, who were also learners just like us a few years back, are working hard to defy impossibility in the field of technology.
+
+In the beginning, you might find difficulty in learning concepts but, tenacity is the key.",What is deep learning and how to learn it?
+Machine Learning in Energy,"Deep learning = a family of machine learning models, that use multi-layered neural networks to approximate functions.
+
+
+
+What is machine learning?
+
+
+
+The business plans of the next 10,000 startups are easy to forecast: Take X and add AI — Kevin Kelly Machine learning is the biggest advance in how we can do engineering since the scientific method — Steve Juvertson
+
+The hype has officially peaked — deep learning is right at the top of the peak of inflated expectations.
+
+
+
+The 2018 Gartner Hype Cycle
+
+Deep learning is foundation of the hype in modern machine learning.
+
+Deep learning uses complex, many layered neural networks to learn patterns from large datasets.
+
+This is the primary intelligence of machine learning — pattern recognition.
+
+
+
+Machine learning has blown past the previous state of the art across a wide range of difficult problems.",What is deep learning and how to learn it?
+Identifying the right meaning of the words using BERT,"Principal Component Analysis (PCA)
+
+PCA is an orthogonal transformation that we will use to reduce the dimension of the vectors [2,3].
+
+PCA finds special basis vectors (eigenvectors) for the projection in a way that it maximises the variance of the reduced-dimension data.
+
+Using PCA has two important benefits.
+
+On the one hand, we can project the 768 dimension vectors to a 2D subspace where we can plot it to see the data.
+
+On the other hand, it keeps the maximum possible variance (projection loses information), therefore, it might keep enough variance so we can identify the classes on the picture.
+
+
+
+Maximising variance for the first principal component — Equation from Wikipedia
+
+Using PCA with sklearn.decomposition.
+
+PCA is a one-liner:
+
+duck_pca = PCA(n_components=2).fit_transform(duck_embs)
+
+
+
+The figure below shows the result of the projection using the first two principal components.
+
+The classes are manually annotated types.",How to use PCA and what are the benefits?
+Tidying up with PCA: An Introduction to Principal Components Analysis,"Principal component analysis (PCA) is a technique for dimensionality reduction, which is the process of reducing the number of predictor variables in a dataset.
+
+
+
+More specifically, PCA is an unsupervised type of feature extraction, where original variables are combined and reduced to their most important and descriptive components.
+
+
+
+The goal of PCA is to identify patterns in a data set, and then distill the variables down to their most important features so that the data is simplified without losing important traits.
+
+PCA asks if all the dimensions of a data set spark joy and then gives the user the option to eliminate ones that do not.
+
+
+
+PCA is a very popular technique, but it is often not well understood by the people implementing it.
+
+My goal with this blog post is to provide a high-level overview of why to use PCA, as well as how it works.
+
+
+
+The Curse of Dimensionality (Or, Why Bother with Dimensionality Reduction?)",How to use PCA and what are the benefits?
+Dimensionality Reduction toolbox in python,"Let’s try to understand more about PCA and how we can use it for feature extraction in the following sections.
+
+
+
+Principal Composant Analysis
+
+Principal component analysis is a statistical method that uses the process of linear, orthogonal transformation to transform a higher-dimensional set of features that could be possibly correlated into a lower-dimensional set of linearly uncorrelated features.
+
+These transformed and newly created features are also known as Principal Components or PCs.
+
+In any PCA transformation, the total number of PCs is always less than or equal to the initial number of features.
+
+The first principal component tries to capture the maximum variance of the original set of features.
+
+
+
+The previous code will both reduce the size of the mnist database and rebuild it in its original dimension.
+
+We can now plot the data in small size.",How to use PCA and what are the benefits?
+Principal Component Analysis for Dimensionality Reduction,"Introduction to Principal Component Analysis
+
+Principal Component Analysis (PCA) is an unsupervised linear transformation technique that is widely used across different fields, most prominently for feature extraction and dimensionality reduction.
+
+Other popular applications of PCA include exploratory data analyses and de-noising of signals in stock market trading, and the analysis of genome data and gene expression levels in the field of bioinformatics.
+
+
+
+PCA helps us to identify patterns in data based on the correlation between features.
+
+In a nutshell, PCA aims to find the directions of maximum variance in high-dimensional data and projects it onto a new subspace with equal or fewer dimensions than the original one.",How to use PCA and what are the benefits?
+Principal Component Analysis — Math and Intuition (Post 3),"As promised, this is the third and last post on Principal Component Analysis — Math and Intuition.
+
+We had a brief introduction to PCA in Post 1 with a real world example and grasped the intuition.
+
+We learned some of the most important concepts in Linear Algebra relevant to PCA and perhaps various other data science applications, in Post 2.
+
+With all the hard work done, it is now time to use our solid mathematical framework and connect the dots to really understanding how and why PCA works.
+
+
+
+PCA is a dimensionality reduction technique.
+
+It simplifies a complex dataset making it computationally amenable.
+
+There is no feature elimination involved; rather PCA works by extracting the significant bits of information from all features in the original dataset and creates lesser numbers of new features.
+
+In simple words, if you have a data set with n-dimensions (n number of features), applying PCA reduces it to a k-dimensional feature space where k < n.
+
+Let us use an example here.",How to use PCA and what are the benefits?
