@@ -2,7 +2,7 @@
 
 This is a preliminary version of article retrieval system with RAG. It indexes articles from the ["1300 Towards Data Science Medium Articles" dataset](https://www.kaggle.com/datasets/meruvulikith/1300-towards-datascience-medium-articles-dataset).
 
-Source code and comments can be found in the *main.ipynb* notebook. The *retrieval_result.csv* file contains examples of retrieved article fragments.
+Source code and comments can be found in the *main.ipynb* notebook. The *retrieval_results.csv* file contains examples of retrieved article fragments.
 
 ### Instructions
 
